@@ -30,3 +30,21 @@ float:right;
 float:none;
 }
 }
+
+.service-height{
+height:500px;
+}
+@media (max-width: 992px) {
+.service-height{
+height:auto;
+}
+}
+
+.text-vary{
+text-align:center;
+}
+@media (max-width: 992px) {
+.text-vary{
+text-align:justify;
+}
+}
